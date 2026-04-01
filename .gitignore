@@ -1,0 +1,7 @@
+node_modules/
+**/node_modules/
+app/backend/node_modules/
+.terraform/
+**/.terraform/
+*.env
+facefusion/

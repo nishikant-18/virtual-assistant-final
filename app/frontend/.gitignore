@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.terraform/
+*.tfstate
+*.tfstate.backup   
+
+# --- Terraform ---
+# Matches .terraform in any subdirectory (tf-aws-eks, tf-aws-ec2, etc.)
+**/.terraform/
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# --- Node.js / React / Express ---
+# Matches node_modules in app/backend/ and app/frontend/
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# --- Secrets & Environment ---
+# Matches the .env file with the lock icon in your screenshot
+**/.env
+**/.env.local
+**/.env.*.local
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
